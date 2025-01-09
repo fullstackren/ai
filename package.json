@@ -1,0 +1,49 @@
+{
+  "name": "ai",
+  "type": "module",
+  "private": true,
+  "version": "1.0.0",
+  "dsescription": "AI 中文",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fullstackren/ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fullstackren/ai/issues"
+  },
+  "license": "MIT",
+  "homepage": "https://ai.fullstack.ren/",
+  "author": "江湖",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development vitepress dev docs --port=2025",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
+  },
+  "devDependencies": {
+    "@femm/prettier": "^1.1.0",
+    "@femm/tailwind-config": "^1.0.0",
+    "@giscus/vue": "^2.4.0",
+    "@mdit-vue/shared": "^0.12.1",
+    "autoprefixer": "^10.4.18",
+    "cross-env": "7.0.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.0.3",
+    "medium-zoom": "^1.1.0",
+    "postcss": "^8.4.36",
+    "prettier": "2.8.8",
+    "sass": "^1.83.0",
+    "vite-plugin-markdown-preview": "^1.1.1",
+    "vitepress": "^1.0.1",
+    "vue": "^3.4.21"
+  },
+  "lint-staged": {
+    "*.{js,ts,css,md,json}": [
+      "prettier --write"
+    ]
+  },
+  "pnpm": {
+    "patchedDependencies": {
+      "vite-plugin-markdown-preview@1.1.1": "patches/vite-plugin-markdown-preview@1.1.1.patch"
+    }
+  }
+}
