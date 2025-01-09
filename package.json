@@ -3,7 +3,7 @@
   "type": "module",
   "private": true,
   "version": "1.0.0",
-  "dsescription": "AI 中文",
+  "dsescription": "简化工作流程，让开发更简单",
   "repository": {
     "type": "git",
     "url": "https://github.com/fullstackren/ai.git"

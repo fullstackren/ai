@@ -4,7 +4,7 @@ layoutClass: 'df-home-layout'
 
 hero:
   name: AI 中文
-  text: 精准、快速找到想要的内容
+  text: 简化工作流程，让开发更简单
   tagline: 助你腾出更多时间专注于成长和快乐
   image:
     src: /logo.png
