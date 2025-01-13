@@ -1,22 +1,20 @@
 import type { DefaultTheme } from 'vitepress'
 
 export const sidebar: DefaultTheme.Config['sidebar'] = {
-  '/dev-tools/': [
+  '/app/': [
     {
-      text: '快捷技巧',
+      text: '实现应用', link: '/app',
       items: [
-        { text: '快捷技巧', link: '/quick-tips' },
-        { text: '标签页分组', link: '/quick-tips/tab-group' },
+        { text: 'DeepSeek 在 Cursor 中的应用', link: '/app/deepseek-in-cursor' },
       ]
     }
   ],
-  '/quick-tips/': [
+  '/theory/': [
     {
-      text: '快捷技巧',
+      text: '',
       items: [
-        { text: '快捷技巧', link: '/quick-tips' },
-        { text: '标签页分组', link: '/quick-tips/tab-group' },
+        { text: '理论硬知识', link: '/' },
       ]
     }
-  ]
+  ],
 }
