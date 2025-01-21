@@ -1,0 +1,12 @@
+{
+  "marscode.chatLanguage": "cn",
+  "workbench.editor.autoLockGroups": {
+    "workbench.editor.chatSession": true,
+    "jsProfileVisualizer.cpuprofile.table": true
+  },
+  "workbench.settings.openDefaultSettings": false,
+  "window.autoDetectColorScheme": true,
+  "window.closeWhenEmpty": false,
+  "window.density.editorTabHeight": "default",
+  "workbench.sideBar.location": "right"
+}

@@ -18,7 +18,13 @@ import DfMine from './components/df-mine/DfMine.vue';
 import { NEWS_DATA } from './components/df-mine/df-news-data.ts';
 </script>
 
-## 动态
+## 近日动态
+
+- [【AI动态】2025年1月20日·周一](./ai-news-20250120.md)
+
+想了解所有 AI 动态？戳这里 → [AI 动态](./news/index.md)
+
+## 站点动态
 
 <ClientOnly>
   <DfMine :data="NEWS_DATA" />

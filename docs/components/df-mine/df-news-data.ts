@@ -1,6 +1,6 @@
 import type { MineData } from './types'
 
-// 最新动态
+// 平台动态
 export const NEWS_DATA: MineData[] = [
   {
     title: 'AI 中文',
