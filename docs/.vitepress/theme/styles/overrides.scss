@@ -3,6 +3,10 @@
   color: red;
 }
 
+.italic {
+  font-style: italic;
+}
+
 /* 大屏大一点 */
 @media (min-width: 1440px) {
   .VPDoc.has-aside .content-container.content-container {

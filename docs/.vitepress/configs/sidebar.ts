@@ -22,7 +22,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
       text: '',
       items: [
         { text: '理论硬知识', link: '/' },
-        { text: 'AI 大模型技术架构', link: '/basic/ai-big-model-architecture-diagram' },
+        { text: '大模型架构', link: '/basic/large-model-architecture' },
+        { text: '大模型素材', link: '/basic/large-model-material' },
       ]
     }
   ],
