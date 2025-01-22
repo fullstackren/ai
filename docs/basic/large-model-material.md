@@ -15,3 +15,4 @@
 ## 参考资料
 
 - [AI大模型大全](https://www.datalearner.com/ai-models/pretrained-models?&aiArea=-1&language=1&contextLength=-1&openSource=0&publisher=-1)
+- [AI大模型全套教程](https://www.bilibili.com/video/BV1g1CKYUExu?spm_id_from=333.788.player.switch&vd_source=3eeb5f6f8ef0c254114b7a0174a62774&p=5)

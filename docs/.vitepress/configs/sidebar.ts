@@ -21,9 +21,10 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     {
       text: '',
       items: [
-        { text: '理论硬知识', link: '/' },
+        { text: '理论硬知识', link: '/basic' },
+        { text: '大模型学习路线', link: '/basic/large-model-roadmap' },
         { text: '大模型架构', link: '/basic/large-model-architecture' },
-        { text: '大模型素材', link: '/basic/large-model-material' },
+        { text: '大模型素材', link: '/basic/large-model-material' }
       ]
     }
   ],
