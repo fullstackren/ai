@@ -13,6 +13,7 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     {
       text: '实现应用', link: '/app',
       items: [
+        { text: 'DeepSeek + Dify 本地部署私有化知识库', link: '/app/deepseek-dify' },
         { text: 'DeepSeek 在 Cursor 中的应用', link: '/app/deepseek-in-cursor' },
       ]
     }

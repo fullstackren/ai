@@ -75,17 +75,17 @@ export default defineConfig({
       label: '目录',
     },
     comment: {
-      repo: 'fullstackren/fullstackren.github.io',
-      repoId: 'R_kgDOLUQ83Q',
+      repo: 'fullstackren/ai',
+      repoId: 'R_kgDONUDZCw',
       category: 'Announcements',
-      categoryId: 'DIC_kwDOLUQ83c4Clk1a',
+      categoryId: 'DIC_kwDONUDZC84CmM1n',
     },
     docFooter: {
       prev: '上一篇',
       next: '下一篇',
     },
     visitor: {
-      badgeId: "fullstackren.fullstackren.github.io"
+      badgeId: "fullstackren.ai"
     },
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
