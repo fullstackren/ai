@@ -4,7 +4,7 @@
 
 **背景**：公司开发产品，由于产品特性不能对外开源，其使用文档也不开源，为了更好地进行技术支持，所以需要本地部署私有化知识库。另外 DeepSeek 由于使用人员较多，经常【服务器繁忙，请稍后再试】。
 
-**思路**：下载 DeepSeek-R1 模型，再下载 Dify 应用框架，在 Dify 中配置大模型，这样就实现了本地部署私有知识库。由于 DeepSeek-R1 模型下载需要 ollama 命令下载、Dify 项目需要再 Docker 环境安装项目依赖、所以需要先下载 ollama 和 Docker。
+**思路**：下载 DeepSeek-R1 模型，再下载 Dify 应用框架，在 Dify 中配置大模型，这样就实现了本地部署私有化知识库。由于 DeepSeek-R1 模型下载需要 ollama 命令下载、Dify 项目需要再 Docker 环境安装项目依赖、所以需要先下载 ollama 和 Docker。
 
 
 
@@ -226,7 +226,7 @@ docker compose up -d
 你会发现此时它是不知道 `@web-kits/table` 是什么，因为我们还没有创建和绑定私有文档文档。
 :::
 
-### 创建私有知识库
+### 创建私有化知识库
 
 就是私有文档，这里以 Markdown 文档为例，其他文档格式也可以。
 
@@ -248,7 +248,7 @@ docker compose up -d
 - 进入文档列表管理界面，可对文档做【重命名、删除等操作】，如下图：
   - ![文件上传](./deepseek-dify/dify-doc-setting-7.png)
 
-### 绑定私有知识库
+### 绑定私有化知识库
 
 - 切换到【工作室】选项卡，选择【工作助手】工作室，如下图：
   ![工作室](./deepseek-dify/dify-workspace-1.png)
@@ -261,13 +261,13 @@ docker compose up -d
 - 在右侧【调试与预览】进行提问，提问与知识库相关内容。
   ![工作室](./deepseek-dify/dify-workspace-6.png)
 
-## 06 <br />快乐地使用私有知识库
+## 06 <br />快乐地使用私有化知识库
 
 - 切换到【探索】选项卡，选择【工作助手】，如下图：
 
-提问输入框输入： `什么是@web-kits/table?`，就会看到私有知识库的回答了，如下图：
+提问输入框输入： `什么是@web-kits/table?`，就会看到私有化知识库的回答了，如下图：
 
-![快乐地使用私有知识库](./deepseek-dify/dify-qa.png)
+![快乐地使用私有化知识库](./deepseek-dify/dify-qa.png)
 
 （完，祝好~）
 
