@@ -2,13 +2,15 @@
 
 ![DeepSeek + Dify 本地部署私有化知识库](./deepseek-dify/deepseek-dify.jpg)
 
-**背景**：公司开发产品，由于产品特性不能对外开源，其使用文档也不开源，为了更好地进行技术支持，所以需要本地部署私有化知识库。另外 DeepSeek 由于使用人员较多，经常【服务器繁忙，请稍后再试】。
+**背景**：公司开发产品，由于产品特性不能对外开源，其使用文档也不开源，为了更好地进行技术支持，所以需要本地部署私有化知识库。另外 DeepSeek 由于外部攻击和使用人员较多，经常【服务器繁忙，请稍后再试】。
 
-**思路**：下载 DeepSeek-R1 模型，再下载 Dify 应用框架，在 Dify 中配置大模型，这样就实现了本地部署私有化知识库。由于 DeepSeek-R1 模型下载需要 ollama 命令下载、Dify 项目需要再 Docker 环境安装项目依赖、所以需要先下载 ollama 和 Docker。
+**思路**：下载 DeepSeek-R1 大模型、Dify 应用框架，在 Dify 应用框架中配置 DeepSeek-R1 大模型，这样就可以实现在本地部署私有化知识库了。由于 DeepSeek-R1 模型下载需要 ollama 命令下载、Dify 应用框架项目需要在 Docker 环境安装项目依赖，所以需要先下载 ollama 和 Docker。
 
+先读为快，看下最终搜索一款我本地文档（`@web-kits/table` 文档），它的搜索​结果：
 
+![本地文档](./deepseek-dify/dify-qa.png)
 
-那就走着~
+就问 6 不 6？​​心动💓了没？那就搞起来~
 
 ## 01 <br/>ollama 下载与安装
 
@@ -66,21 +68,21 @@
 
 **DeepSeek-R1 模型下载**
 
-进入 [ollama](https://ollama.com/) 官网，点击 [DeepSeek-R1](https://ollama.com/library/deepseek-r1), 如下图：
+进入 [ollama](https://ollama.com/) 官网，点击 [DeepSeek-R1](https://ollama.com/library/deepseek-r1)，如下图：
 
 ![ollama](./deepseek-dify/ollama-deepseek-r1.png)
 
-选择上一步你咨询 DeepSeek 推荐的模型，然后选择（我选择 32b，为了速度，我也选了 14b），然后点击右侧【复制】按钮。
+选择上一步你咨询 DeepSeek 推荐的模型，然后选择（我选择 32b，为了速度，我也选了 14b），然后点击右侧【复制】按钮，如下图：
 
 ![ollama-32b](./deepseek-dify/ollama-deepseek-r1-32b.png)
 
-打开本地终端，粘贴刚刚复制的命令：
+打开本地终端，粘贴刚刚复制的命令，如下图：​
 
 ![本地终端-32b](./deepseek-dify/ollama-deepseek-r1-32b-download.png)
 
 ![本地终端-14b](./deepseek-dify/ollama-deepseek-r1-14b-download.png)
 
-下载完成后，在本地终端输入你的问题，然后回车，专断也是能回答的，如下图。由于不是界面，操作很不方便，所以需要搭建 Dify，Dify 是什么，后面会介绍。
+下载完成后，在本地终端输入你的问题，键盘按回车，终端也是能回答的，如下图。由于不是界面，操作很不方便，所以需要搭建 Dify，Dify 是什么，后面会介绍。
 
 ![终端输入你的问题](./deepseek-dify/ollama-deepseek-r1-qa.png)
 
@@ -90,7 +92,7 @@
 
 ![ollama-bge-m3](./deepseek-dify/ollama-bge-m3.png)
 
-打开本地终端，粘贴刚刚复制的命令：
+打开本地终端，粘贴刚刚复制的命令，如下图：
 
 ![ollama-bge-m3-download](./deepseek-dify/ollama-bge-m3-download.png)
 
@@ -154,7 +156,7 @@ docker compose up -d
 - 设置**用户名**字段。
 - 设置**密码**字段。
 
-<img width="60%" alt="管理员设置" src="./deepseek-dify/dify-seeting=admin.png" />
+<img width="60%" alt="管理员设置" src="./deepseek-dify/dify-setting-admin.png" />
 
 ### Dify 项目在线查看
 
@@ -188,13 +190,13 @@ docker compose up -d
   - ![ollama-deepseek-r1-32b](./deepseek-dify/ollama-deepseek-r1-32b.png)
 - 【模型地址】字段填写 `http://host.docker.internal:11434`。
 
-填写好的表单如下图：
+填写好的表单，如下图：
 
-![大模型配置](./deepseek-dify/dify-llama-deepseek-r1.png)
+![大模型配置](./deepseek-dify/dify-ollama-deepseek-r1.png)
 
 **Embedding 向量模型配置**
 
-配置界面还是按照之前步骤打开，之前下载的 bge-m3 Embedding 向量模型，配置如下图：
+配置界面还是按照之前步骤打开，之前下载的 bge-m3 Embedding 向量模型。
 
 表单填写：
 
@@ -202,7 +204,7 @@ docker compose up -d
 - 【模型名称】字段填写 `bge-m3`。
 - 【模型地址】字段填写 `http://host.docker.internal:11434`。
 
-填写好的表单如下图：
+填写好的表单，如下图：
 
 ![Embedding 向量模型配置](./deepseek-dify/dify-ollama-bge-m3.png)
 
@@ -228,7 +230,7 @@ docker compose up -d
 
 ### 创建私有化知识库
 
-就是私有文档，这里以 Markdown 文档为例，其他文档格式也可以。
+就是私有文档，这里以 Markdown 文档为例，其他文档格式要看 Dify 是否支持。​
 
 - 选择【知识库】选项卡，点击【创建知识库】，如下图：
   - ![创建知识库](./deepseek-dify/dify-doc-create.png)
@@ -262,12 +264,14 @@ docker compose up -d
 
 ## 06 <br />快乐地使用私有化知识库
 
-- 切换到【探索】选项卡，选择【工作助手】，如下图：
-
-提问输入框输入： `什么是@web-kits/table?`，就会看到私有化知识库的回答了，如下图：
+切换到【探索】选项卡，选择【工作助手】，提问输入框输入： `什么是@web-kits/table?`，就会看到私有化知识库的回答了，如下图：
 
 ![快乐地使用私有化知识库](./deepseek-dify/dify-qa.png)
 
-（完，祝好~）
+## 作者说
 
-更多 Dify 的使用以及 AI 使用，欢迎在评论区留言。我会结和自己的节奏，持续更新。
+想要了解更多关于 DeepSeek、Dify 以及 AI 知识，欢迎在评论区留言。我会结和自己的节奏，持续更新。
+
+了解最新 AI 动态，可戳 [AI 动态](../news/index.md)。
+
+（完，祝好~）
