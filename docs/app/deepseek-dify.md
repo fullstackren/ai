@@ -257,9 +257,8 @@ docker compose up -d
   ![工作室](./deepseek-dify/dify-workspace-3.png)
 - 然后【工作助手-知识库】就会出现在【上下文】模块中，点击右上角【发布】，在点击【更新】，如下图：
   ![工作室](./deepseek-dify/dify-workspace-4.png)
-  ![工作室](./deepseek-dify/dify-workspace-5.png)
 - 在右侧【调试与预览】进行提问，提问与知识库相关内容。
-  ![工作室](./deepseek-dify/dify-workspace-6.png)
+  ![工作室](./deepseek-dify/dify-workspace-5.png)
 
 ## 06 <br />快乐地使用私有化知识库
 
