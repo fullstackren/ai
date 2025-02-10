@@ -20,7 +20,8 @@ import { NEWS_DATA } from './components/df-mine/df-news-data.ts';
 
 ## 近日动态
 
-- [【AI动态】2025年1月20日·周一](./news/ai-news-20250120.md)
+- [【AI动态】2025年2月](./news/ai-news-202502.md)
+- [【AI动态】2025年1月](./news/ai-news-202501.md)
 
 想了解所有 AI 动态？戳这里 → [AI 动态](./news/index.md)
 
