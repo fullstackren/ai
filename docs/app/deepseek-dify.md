@@ -76,7 +76,7 @@
 
 ![ollama-32b](./deepseek-dify/ollama-deepseek-r1-32b.png)
 
-打开本地终端，粘贴刚刚复制的命令，如下图：​
+打开本地终端，粘贴刚刚复制的命令，如下图：
 
 ![本地终端-32b](./deepseek-dify/ollama-deepseek-r1-32b-download.png)
 
@@ -272,6 +272,6 @@ docker compose up -d
 
 想要了解更多关于 DeepSeek、Dify 以及 AI 知识，欢迎在评论区留言。我会结和自己的节奏，持续更新。
 
-了解最新 AI 动态，可戳 [AI 动态](../news/index.md)。
+若要了解最新 AI 动态，可戳 [AI 动态](../news/index.md)。
 
 （完，祝好~）

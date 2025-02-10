@@ -5,7 +5,8 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     {
       text: 'AI 动态', link: '/news',
       items: [
-        { text: '【AI动态】2025年1月20日', link: '/news/ai-news-20250120' },
+        { text: '【AI动态】2025年2月', link: '/news/ai-news-202502' },
+        { text: '【AI动态】2025年1月', link: '/news/ai-news-202501' },
       ]
     }
   ],
