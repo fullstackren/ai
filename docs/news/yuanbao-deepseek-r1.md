@@ -14,7 +14,7 @@
 
 ### 1.1 下载或更新
 
-![手机版下载或更新](./images/yuanbao-deepseek-r1-01.PNG)
+![手机版下载或更新](./images/yuanbao-deepseek-r1-01.png)
 
 - 还未下载「元宝」的朋友，直接去应用市场搜索「元宝」，点击「下载」即可体验。
 - 已下载过「元宝」的朋友，也是去应用市场搜索「元宝」，点击「更新」即可体验。
@@ -23,7 +23,7 @@
 
 在顶部将模型从「Hunyuan」切换为「DeepSeek R1」
 
-![手机版切换模型](./images/yuanbao-deepseek-r1-02.PNG)
+![手机版切换模型](./images/yuanbao-deepseek-r1-02.png)
 
 ### 1.3 验证和使用
 
@@ -43,7 +43,7 @@
 
 输入框输入提示词：**未来10年贬值最快的物品是什么？**
 
-![手机版上难度](./images/yuanbao-deepseek-r1-04.JPG)
+![手机版上难度](./images/yuanbao-deepseek-r1-04.jpg)
 
 这是未开启「联网搜索」的效果，是不是推理还是非常严谨的。
 
@@ -51,7 +51,7 @@
 
 输入框输入提示词：**活着的意义在于什么？**
 
-![看看联网搜索能力](./images/yuanbao-deepseek-r1-04-1.JPG)
+![看看联网搜索能力](./images/yuanbao-deepseek-r1-04-1.jpg)
 
 ## 02 <br/> 电脑版
 
