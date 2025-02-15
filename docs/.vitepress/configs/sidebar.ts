@@ -5,7 +5,11 @@ export const sidebar: DefaultTheme.Config['sidebar'] = {
     {
       text: 'AI 动态', link: '/news',
       items: [
-        { text: '【AI动态】2025年2月', link: '/news/ai-news-202502' },
+        { text: '【AI动态】2025年2月', link: '/news/ai-news-202502',
+          items: [
+            { text: 'DeepSeek-R1在腾讯元宝接入，也太丝滑了吧', link: '/news/yuanbao-deepseek-r1' },
+          ]
+         },
         { text: '【AI动态】2025年1月', link: '/news/ai-news-202501' },
       ]
     }
