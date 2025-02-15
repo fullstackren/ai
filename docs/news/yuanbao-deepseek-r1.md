@@ -95,5 +95,6 @@
 
 当下，大模型使用工具会很多，几乎没几天就会出现大模型新资讯，我的想法是：有好工具就先用着，等工具成熟了，再去研究工具的原理。你怎么看？
 
-（完，祝好~）
+打广告：作者常以「江湖聊IT」为名混迹于技术圈，创有：[博客](https://www.fullstack.ren/)、[公众号](https://mp.weixin.qq.com/s/SCcPX66geeCfg1Eu-JGmcg)、[掘金](https://juejin.cn/user/1046390799881463)、[Github](https://github.com/fullstackren/)（点个 star 鼓励下持续创作） 和[抖音](https://www.douyin.com/user/MS4wLjABAAAAra__2Du0aaHbtq2dve76uHX5MV-HaAeDiBf7wVvhHZc)。
 
+（完，祝好~）
