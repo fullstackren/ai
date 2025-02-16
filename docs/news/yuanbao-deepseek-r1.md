@@ -1,6 +1,6 @@
 # DeepSeek-R1在腾讯元宝接入，也太丝滑了吧
 
-![DeepSeek-R1在腾讯元宝接入](./images/yuanbao-deepseek-r1-00.png)
+![DeepSeek-R1在腾讯元宝接入](./images/yuanbao-deepseek-00.jpg)
 
 手机内存大、电脑内存大的朋友们，**新福利**来了：DeepSeek-R1 在腾讯「元宝」中正式上线，体验起来非常丝滑！
 
@@ -14,7 +14,7 @@
 
 ### 1.1 下载或更新
 
-![手机版下载或更新](./images/yuanbao-deepseek-r1-00-1.png)
+![手机版下载或更新](./images/yuanbao-deepseek-01.jpg)
 
 - 还未下载「元宝」的朋友，直接去应用市场搜索「元宝」，点击「下载」即可体验。
 - 已下载过「元宝」的朋友，也是去应用市场搜索「元宝」，点击「更新」即可体验。
@@ -23,13 +23,13 @@
 
 在顶部将模型从「Hunyuan」切换为「DeepSeek R1」
 
-![手机版切换模型](./images/yuanbao-deepseek-r1-02.png)
+![手机版切换模型](./images/yuanbao-deepseek-02.jpg)
 
 ### 1.3 验证和使用
 
 输入框输入提示词：**你是谁？**
 
-![手机版切换模型](./images/yuanbao-deepseek-r1-03.jpg)
+![手机版切换模型](./images/yuanbao-deepseek-03.jpg)
 
 **注意啦**，友好体验：
 
@@ -43,7 +43,7 @@
 
 输入框输入提示词：**未来10年贬值最快的物品是什么？**
 
-![手机版上难度](./images/yuanbao-deepseek-r1-04.jpg)
+![手机版上难度](./images/yuanbao-deepseek-04.jpg)
 
 这是未开启「联网搜索」的效果，是不是推理还是非常严谨的。
 
@@ -51,7 +51,7 @@
 
 输入框输入提示词：**活着的意义在于什么？**
 
-![看看联网搜索能力](./images/yuanbao-deepseek-r1-04-1.jpg)
+![看看联网搜索能力](./images/yuanbao-deepseek-05.jpg)
 
 ## 02 <br/> 电脑版
 
@@ -59,9 +59,9 @@
 
 「元宝」网页版地址：[https://yuanbao.tencent.com/chat](https://yuanbao.tencent.com/chat)
 
-![电脑版](./images/yuanbao-deepseek-r1-05.png)
+![电脑版](./images/yuanbao-deepseek-06.png)
 
-![电脑版](./images/yuanbao-deepseek-r1-06.png)
+![电脑版](./images/yuanbao-deepseek-07.png)
 
 ### 2.2 看看推理能力
 
@@ -69,7 +69,7 @@
 
 **注意**：此时未开启「联网搜索」，这无需查看其他网络资源，就是需要它自我推理。
 
-![看看推理能力](./images/yuanbao-deepseek-r1-07.png)
+![看看推理能力](./images/yuanbao-deepseek-08.png)
 
 总体来说还是可以的，有深度思考，回答内容也不错。
 
@@ -77,15 +77,15 @@
 
 输入框输入提示词：**《哪吒2》截止目前总票房多少了？其取得的成绩有什么意义？**
 
-![看看联网搜索能力](./images/yuanbao-deepseek-r1-08.png)
+![看看联网搜索能力](./images/yuanbao-deepseek-09.png)
 
 点开第 1 个引用资源的链接，来自公众号文章，时间是今天（2025.2.15）发布的：
 
-![看看联网搜索能力](./images/yuanbao-deepseek-r1-09.png)
+![看看联网搜索能力](./images/yuanbao-deepseek-10.png)
 
 点开第 2 个引用资源的链接，依旧来自公众号文章，时间是今天（2025.2.15）发布的：
 
-![看看联网搜索能力](./images/yuanbao-deepseek-r1-10.png)
+![看看联网搜索能力](./images/yuanbao-deepseek-11.png)
 
 可以看到，参考的例子不是很多，就 8 篇。点开链接很多是「微信公众号」文章，这个其实比其他家大模型联网资源质量会相对高一点。腾讯元宝的搜索更像是微信的「搜一搜」，其他家的就是「网页搜索框搜索」。
 
